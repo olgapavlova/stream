@@ -1,3 +1,5 @@
+<img width="1280" height="720" alt="2026-06-12" src="https://github.com/user-attachments/assets/f9139861-df3b-474b-8e4b-2338a4896e3d" />
+
 Youtube-запись от `2026-06-12`: https://youtu.be/DPiigsfn63Q
 
 # `awk` • язык потоковой обработки текстов 
