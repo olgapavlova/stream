@@ -148,7 +148,7 @@ awk '(NR > ARGV[2] - 3) && (NR < ARGV[2] + 3) { print }' portfolio.txt 7 2>/dev/
 ###### И даже поля можно разделять по шаблону, а не по символам
 > Сколько раз использован приём ==R2==?
 ```awk
-awk -F '[ |\n]' '$1 ~ "R2" { SUM += 1} END { print SUM }' scrambles.csv
+awk -v RS=/R2/ '{ SUM += 1 } END { print SUM }' scrambles.csv
 ```
 
 ###### Нашлось место и ассоциативным массивам (словарям)
