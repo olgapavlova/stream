@@ -1,0 +1,4 @@
+раз echo
+два ls
+три pwd
+четыре uname
