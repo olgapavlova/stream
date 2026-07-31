@@ -1,17 +1,15 @@
-
 # Отделяем математику от программирования
 
-[Wolfram](https://www.wolfram.com/?source=nav) — вся математика в одном движке
-WSTP: https://www.wolfram.com/wstp/index.php.ru
-C/Link: https://reference.wolfram.com/language/guide/CLanguageInterface.html
+- [Wolfram](https://www.wolfram.com/?source=nav) — вся математика в одном движке
+- WSTP: https://www.wolfram.com/wstp/index.php.ru
+- C/Link: https://reference.wolfram.com/language/guide/CLanguageInterface.html
 
 
 ## Халява, сэр!
 
 Фишка Raspberry Pi: Wolfram Language & Wolfram Engine доступны для некоммерческого использования.
 Прям хорошая там лицензия именно для Raspberry Pi: https://www.wolfram.com/raspberry-pi/
-
-![[Pasted image 20260731120205.png]]
+<img width="1002" height="268" alt="Pasted image 20260731120205" src="https://github.com/user-attachments/assets/22ade822-1393-40eb-96db-81772c193b1f" />
 
 Ставим [Wolfram Engine](https://www.wolfram.com/engine/) `14.2.1` **не из репозитория** (в версии `14.3` ошибка с лицензированием):
 ```bash
@@ -20,19 +18,19 @@ wget https://wolfr.am/wolfram-engine.deb
 sudo apt install ./wolfram-engine.deb
 ```
 
-> [!CAUTION] `https://wolfr.am/wolfram-engine.deb` — слишком умная ссылка
+> [!CAUTION]
+> `https://wolfr.am/wolfram-engine.deb` — слишком умная ссылка.
 > Если она не угадает вашу архитектуру — берите из [архива](https://archive.raspberrypi.org/debian/pool/main/w/wolfram-engine/)
 
 
 Создаём Wolfram ID для активации:
+<img width="847" height="448" alt="Pasted image 20260731120935" src="https://github.com/user-attachments/assets/577b96fb-c246-4b75-8f36-7edce7277f11" />
 
-![[Pasted image 20260731120935.png]]
+
 https://www.wolfram.com/engine/free-license/
 
-
-![[Pasted image 20260731121116.png]]
-
-![[Pasted image 20260731121147.png]]
+<img width="695" height="409" alt="Pasted image 20260731121147" src="https://github.com/user-attachments/assets/efd65ea3-1a35-4834-86fb-f5076b352f06" />
+<img width="694" height="529" alt="Pasted image 20260731121116" src="https://github.com/user-attachments/assets/ab220af8-981c-47f9-8485-14559cfc44f0" />
 
 Запускаем ядро:
 ```bash
@@ -180,7 +178,8 @@ find /opt/Wolfram -type f -name wstp.h -print
 
 Начнём с `/opt/Wolfram/WolframEngine/13.3/SystemFiles/Links/WSTP/DeveloperKit/Linux-ARM64/CompilerAdditions`
 
-> [!WARNING] Мы ни разу не обсуждали CMake всерьёз
+> [!WARNING]
+> Мы ни разу не обсуждали CMake всерьёз.
 > Это нехорошо. Попробуем осваивать с колёс. Так бывает.
 
 Основная идея CMake — декларативность: «Опишите, что вам нужно, а не как этого достичь».
@@ -733,5 +732,6 @@ angle =
 
 Ну и в выводе ° вместо rad. И всё.
 
-> [!TIP] Да мы же только что отделили математику от программирования!
+> [!TIP]
+> Да мы же только что отделили математику от программирования!
 > Ну ничего себе.
