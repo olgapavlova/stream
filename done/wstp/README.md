@@ -1,3 +1,6 @@
+<img width="1280" height="720" alt="2026-07-31" src="https://github.com/user-attachments/assets/424c807e-1aca-402c-967b-ea0beb1f011f" />
+
+Youtube-запись от `2026-07-31`: https://youtu.be/1nm_Pi_isjk
 # Отделяем математику от программирования
 
 - [Wolfram](https://www.wolfram.com/?source=nav) — вся математика в одном движке
