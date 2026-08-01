@@ -1,13 +1,16 @@
+<img width="1280" height="720" alt="2026-07-17" src="https://github.com/user-attachments/assets/a80f7ec1-6263-4967-aea2-6180545414db" />
 
 Youtube-запись от `2026-07-17`: https://youtu.be/Ghfi19QcI1c
 
 # CirquitPython для прототипов на плате с nRF
 
-> [!INFO] Не все микроконтроллеры одинаково полезны
+> [!TIP]
+> Не все микроконтроллеры одинаково полезны
 > Очень часто хочется беспроводных клавиатур и прочих мышек.
 > Но чтобы огород не городить. ~~И ещё чтобы AI/ML, а то неприлично.~~
 
-![[IMG_2499.jpeg]]
+<img width="3052" height="2222" alt="IMG_2499" src="https://github.com/user-attachments/assets/b6936392-83d0-4cbb-9f89-061f0d8e9af6" />
+
 Github проекта: https://github.com/rafgaj/Mouse-buttons-and-wheel
 
 > [!NOTE]
@@ -22,7 +25,8 @@ Github проекта: https://github.com/rafgaj/Mouse-buttons-and-wheel
 
 **А прототипы?** А для этого — [CirquitPython](https://learn.adafruit.com/welcome-to-circuitpython/overview).
 
-![[Pasted image 20260717182550.png]]
+<img width="526" height="197" alt="Pasted image 20260717182550" src="https://github.com/user-attachments/assets/979f0265-3551-4b28-a768-9ad5827aab3e" />
+
 Всё публично, копайся не хочу: https://github.com/adafruit/circuitpython
 
 
@@ -30,7 +34,7 @@ Github проекта: https://github.com/rafgaj/Mouse-buttons-and-wheel
 > [!CAUTION]
 > Вы забыли, что такое прошивка? И правильно!\
 > Это готовая программа для микроконтроллера.\
-> Для Windows — ==.exe==, а тут — например, ==.uf2==
+> Для Windows — `.exe`, а тут — например, `.uf2`
 
 ```mermaid
 flowchart LR
@@ -65,11 +69,12 @@ classDef green fill:#9a9a00,stroke:#9a9a00,color:#fefbe5;
 4. В прошивке сделано то же самое (только диск другой).
 5. Ещё и код запускается автоматом.
 
-> [!IMPORTANT] Запустить код == обновить ==.py==-файл на диске
+> [!IMPORTANT]
+> Запустить код == обновить `.py`-файл на диске
 
 ## Дальше просто делаем — или не просто
 
-==XIAO-SENSE== появляется, если дважды нажать Reset.
+`XIAO-SENSE` появляется, если дважды нажать Reset.
 
 Увидеть — `lsblk`:
 ```bash
@@ -122,7 +127,7 @@ storage.erase_filesystem()
 ```
 (это вводим построчно в REPL)
 
-Мягкий перезапуск, чтобы заметить логи старта — ==Ctrl + D==
+Мягкий перезапуск, чтобы заметить логи старта — `Ctrl + D`
 
 Перед выключением: `sync`
 
@@ -143,7 +148,9 @@ while True:
 Ура, стандартные библиотеки импортируются, радость-то какая!
 
 Кстати, [вот они](https://circuitpython.org/board/Seeed_XIAO_nRF52840_Sense/):
-![[cp-libraries.png]]
+
+<img width="557" height="420" alt="cp-libraries" src="https://github.com/user-attachments/assets/f33dded3-f09d-4a7f-9c3d-df6fca22a204" />
+
 
 Теперь проверим кнопки. Ну что они вообще нажимаются.
 ```python
@@ -230,19 +237,21 @@ adafruit_ticks
 simpleio
 ```
 
-> Если ==.mpy==, то это оптимизированные файлы — их руками в `lib/`
+> Если `.mpy`, то это оптимизированные файлы — их руками в `lib/`
 
 И устанавливаем по этому списку:
 ```bash
 circup --path /media/op/CIRCUITPY install -r lib.txt
 ```
 
-Ну вот, теперь хотя бы ==Connecting…==
+Ну вот, теперь хотя бы `Connecting…`
 
 А потом? Надо бы разобраться, что вообще должно происходить. Лезем в код.
 
-[Распиновка](XIAO_nRF52840_front_pinout.png) (цоколёвка) точно пригодится. Всегда пригождается.
-![[XIAO_nRF52840_front_pinout.png]]
+Распиновка (цоколёвка) точно пригодится. Всегда пригождается.
+
+<img width="7680" height="4320" alt="XIAO_nRF52840_front_pinout" src="https://github.com/user-attachments/assets/cea055c9-716c-43d3-b5d5-375585702a8e" />
+
 
 
 - [x] Как пины привязаны к кнопкам?
