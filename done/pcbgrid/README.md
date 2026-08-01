@@ -1,15 +1,18 @@
+<img width="1280" height="720" alt="2026-07-10" src="https://github.com/user-attachments/assets/f3232fd8-f022-4954-a239-5c1df3eaf70a" />
+
+
+Youtube-запись от `2026-07-10`: https://youtu.be/mXOjK-27A90
 
 # Программируем рядышком с KiCad
 
 - [KiCad](https://www.kicad.org) — программа для рисования вот такого
 (и всего, что из него следует).
 
-![[drawing.png]]
+<img width="1305" height="919" alt="drawing" src="https://github.com/user-attachments/assets/90fd9ec1-5910-4fd8-94ac-da991f0beafc" />
 
 - Чертёж в KiCad. PCB — если есть — там же.
 - **А монтажную плату куда?**
-
-![[mvp-2.jpeg]]
+<img width="3366" height="2442" alt="mvp-2" src="https://github.com/user-attachments/assets/14d77a5b-fcc9-4185-9cdb-7d1b00fe7b0c" />
 
 > [!CAUTION]
 > Давайте делать массивы в KiCad.\
@@ -41,7 +44,8 @@
   &nbsp;
   
 - Дерево с очень, очень простым обработчиком
-![[lisp-s-expression.png]]
+
+<img width="253" height="300" alt="lisp-s-expression" src="https://github.com/user-attachments/assets/22efbe90-9832-479b-8956-ae48d8dc9c44" />
 
 
 ### Давайте сгенерим S-файл посадочного места
@@ -76,7 +80,9 @@
 ```
 
 Дальше — [очень много всяких вариантов](https://dev-docs.kicad.org/en/file-formats/sexpr-intro/index.html#_footprint) описания посадочных мест:
-![[footprint-details.png]]
+
+<img width="677" height="610" alt="footprint-details" src="https://github.com/user-attachments/assets/7339ae82-f4b2-45a3-92c7-4233bc758b34" />
+
 
 Нам нужны:
 ```text
@@ -113,7 +119,9 @@
 ##### Контактная площадка
 
 Тоже возможностей немало:
-![[pad-description.png]]
+
+<img width="587" height="605" alt="pad-description" src="https://github.com/user-attachments/assets/bcd18fb6-a601-4b40-b11a-302d77f29b38" />
+
 
 Нам нужны:
 ```text
@@ -140,7 +148,7 @@
 
 ==<вот в код и посмотрим, а не в конспект>==
 
-> [!INFO]
+> [!TIP]
 > Пользуйтесь родным языком.\
 > Тут `C` вовсе не обязателен.\
 > Он пригодится **позже**.\
