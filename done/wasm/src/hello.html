@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<script type="module">
+  import { createHelloWasi } from "./hello.js";
+
+  const wasi = createHelloWasi();
+
+  const { instance } = await WebAssembly.instantiateStreaming(
+    fetch("./hello.wasm"),
+    wasi.imports
+  );
+
+  wasi.setMemory(instance.exports.memory);
+
+  instance.exports.wasm_call_ctors?.();
+  instance.exports.hello();
+
+</script>
