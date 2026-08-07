@@ -1,6 +1,9 @@
+
+<img width="1280" height="720" alt="2026-08-07" src="https://github.com/user-attachments/assets/843f352d-3728-4f39-b664-5c19dcfb0fe4" />
+
+Youtube-запись от `2026-08-07`: https://youtu.be/hj6hgjaLkJc
+
 # MCP без LLM через CLI на примере ESP-IDF
-
-
 
 ## В ESP-IDF подвезли новости
 
