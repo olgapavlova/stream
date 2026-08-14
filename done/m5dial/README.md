@@ -1,3 +1,5 @@
+<img width="1280" height="720" alt="2026-08-14" src="https://github.com/user-attachments/assets/9546663c-a795-4569-bce5-7670ea2e3da4" />
+
 Youtube-запись от `2026-08-14`: https://youtu.be/v3ToZhRdAHg
 
 # Дизайн круглых интерфейсов сразу в коде
