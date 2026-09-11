@@ -1,3 +1,4 @@
+<img width="1280" height="720" alt="2026-09-11" src="https://github.com/user-attachments/assets/715e628c-4e50-4b0d-a55b-4a9279f3e696" />
 
 Youtube-запись от `2026-09-11`: https://youtu.be/psPtKPWm0ts
 
