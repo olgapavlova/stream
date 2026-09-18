@@ -1,4 +1,4 @@
-
+<img width="1280" height="720" alt="2026-09-18" src="https://github.com/user-attachments/assets/b5720b83-471b-4435-ba06-2b3063481084" />
 
 Youtube-запись от `2026-09-18`: https://youtu.be/Pduu6CM6mXs
 # ~~Поймали и~~ препарируем агента
