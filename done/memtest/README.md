@@ -1,3 +1,4 @@
+<img width="1280" height="720" alt="2026-10-02" src="https://github.com/user-attachments/assets/08ce6d08-917d-48f9-a260-dab4402da1e9" />
 
 Youtube-запись от `2026-10-02`: https://youtu.be/qr7sawRZ-uU
 # Аккуратно ломаем malloc()
