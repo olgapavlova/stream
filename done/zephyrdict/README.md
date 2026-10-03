@@ -1,4 +1,6 @@
-![[cardputer-banner.jpeg]]
+<img width="1280" height="720" alt="2026-09-25" src="https://github.com/user-attachments/assets/1a7fce85-f540-4401-ba58-20666b41f9b9" />
+
+Youtube-запись от `2026-09-25`: https://youtu.be/7RQJwU7g4fE
 # Zephyr на M5Stack со словарём
 Можно относиться как к «маленькому компьютеру».
 А значит, можно с чистой совестью ставить операционную систему.
