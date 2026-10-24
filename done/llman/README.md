@@ -1,3 +1,5 @@
+<img width="1280" height="720" alt="2026-10-23" src="https://github.com/user-attachments/assets/d1522dae-8b13-472d-92ee-9b23ee81044b" />
+
 Youtube-запись от `2026-10-23`: https://youtu.be/n6ciDzA4B6I
 
 # Локальный LLM `man` на примере `tmux`
