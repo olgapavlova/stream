@@ -1,3 +1,5 @@
+<img width="1280" height="720" alt="2026-10-30" src="https://github.com/user-attachments/assets/33cfce1a-9032-4720-8f45-0950e9e5657b" />
+
 Youtube-запись от `2026-10-30`: https://youtu.be/13_Z1pXwS4w
 
 > [!tip]
@@ -23,6 +25,8 @@ Youtube-запись от `2026-10-30`: https://youtu.be/13_Z1pXwS4w
 
 ### Пора сориентироваться в «языках вообще»
 Лучший способ разобраться — заглянуть на кухню.
+
+<img width="493" height="720" alt="build-your-own-language-book-cover" src="https://github.com/user-attachments/assets/d8942b52-66ce-438b-9a53-f50665c9255a" />
 
 #### «[Создай свой собственный язык программирования](https://olgpv.me/to/createlang)», Клинтон Л. Джеффери, 2023, издательство «ДМК Пресс»
 
@@ -363,6 +367,8 @@ echo lines
 
 ## Куда копать
 ### [FrameOS](https://frameos.net)
+
+<img width="1005" height="659" alt="frame-os-in-action" src="https://github.com/user-attachments/assets/467b7e12-5e70-4371-bce7-ad466233c6b4" />
 
  - Операционка (или просто среда) для создания цифровых рамок.
  - На Nim написана среда исполнения на железе (runtime).
